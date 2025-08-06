@@ -1,7 +1,7 @@
 // Fetch and display data for both "products" and "Fish-Board"
 function fetchdata() {
     // Fetch "products"
-    fetch('http://localhost:3000/products')
+    fetch('https://patagonia-provisions-clone.onrender.com/products')
         .then((res) => res.json())
         .then((data) => {
             showProducts(data);
@@ -9,7 +9,7 @@ function fetchdata() {
         .catch((err) => console.log("Error fetching products:", err));
 
     // Fetch "Fish-Board"
-    fetch('http://localhost:3000/Fish-Board')
+    fetch('https://patagonia-provisions-clone.onrender.com/Fish-Board')
         .then((res) => res.json())
         .then((data) => {
             showFishBoard(data);

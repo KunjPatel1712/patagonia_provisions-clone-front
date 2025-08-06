@@ -1,13 +1,13 @@
 // Fetch and display data for all categories
 function fetchdata() {
     // Fetch "products"
-    fetch('http://localhost:3000/products')
+    fetch('https://patagonia-provisions-clone.onrender.com/products')
         .then((res) => res.json())
         .then((data) => showProducts(data))
         .catch((err) => console.log("Error fetching products:", err));
 
     // Fetch "Fish-Board"
-    fetch('http://localhost:3000/Fish-Board')
+    fetch('https://patagonia-provisions-clone.onrender.com/Fish-Board')
         .then((res) => res.json())
         .then((data) => showFishBoard(data))
         .catch((err) => console.log("Error fetching Fish-Board:", err));
@@ -19,19 +19,19 @@ function fetchdata() {
         .catch((err) => console.log( err));
 
     // Fetch "Best-Seller"
-    fetch('http://localhost:3000/Best-Seller')
+    fetch('https://patagonia-provisions-clone.onrender.com/Best-Seller')
         .then((res) => res.json())
         .then((data) => showBestSeller(data))
         .catch((err) => console.log("Error fetching Best-Seller:", err));
 
     // Fetch "New-Arrival"
-    fetch('http://localhost:3000/New-Arrival')
+    fetch('https://patagonia-provisions-clone.onrender.com/New-Arrival')
         .then((res) => res.json())
         .then((data) => showNewArrivals(data))
         .catch((err) => console.log("Error fetching New-Arrival:", err));
 
     // Fetch "Sea-Food"
-    fetch('http://localhost:3000/Sea-Food')
+    fetch('https://patagonia-provisions-clone.onrender.com/Sea-Food')
         .then((res) => res.json())
         .then((data) => showSeaFood(data))
         .catch((err) => console.log("Error fetching Sea-Food:", err));
