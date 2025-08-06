@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    <title>Document</title>
+    <style>
+        *
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav-center {
+    display: flex;
+    align-items: center; /* Vertically align the logo */
+}
+  .logo img
+  {
+    height:50px ;
+    width: 100%;
+    padding-left: 70px;
+  }.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 20px; */
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-right a
+{
+  color: black;
+}
+
+.nav-item {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-item.dropdown::after {
+  content: "▼";
+  font-size: 10px;
+  margin-left: 5px;
+}
+.drop
+{
+list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%; /* Position dropdown below the parent item */
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    display: none; /* Hide by default */
+    z-index: 1000;
+}
+.drop li {
+  padding: 10px 20px;
+  white-space: nowrap; /* Prevent text wrapping */
+  color: #000;
+  font-size: 14px;
+}
+
+.drop li:hover {
+  background-color: #f5f5f5; /* Highlight on hover */
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .drop {
+  display: block;
+}
+.nav-center {
+  text-align: center;
+
+  display: flex;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+
+}
+
+.nav-icon {
+  margin: 0 10px;
+  position: relative;
+  color: black;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list ul li {
+  position: relative; /* Ensures the pseudo-element is positioned relative to the li */
+  padding: 10px 0;
+}
+
+.list ul li::before {
+  content: "";
+  display: block;
+  border-bottom: 1px solid black;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease, border-color 0.3s ease;
+}
+
+.list ul li:hover::before {
+  width: 50px;
+  border-color: white; /* Changes border color to white on hover */
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #f00;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.gifts{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Styling for the Gifts + Boxes section */
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Individual card styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.card-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Card content */
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #555;
+}
+
+.card-price {
+    font-size: 1em;
+    color: #009688;
+    margin: 5px 0;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    #gifts-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+
+.footer {
+    height: 600px;
+    padding: 40px 20px;
+    background-color: #222222;
+    color: white;
+    background-image: url('');
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-description {
+    width: 50%;
+  }
+  
+  .footer-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description p {
+    font-size: 14px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .subscription-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 10px;
+  }
+  
+  .footer-links h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 20px; */
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.nav-item {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.nav-right a
+{
+  color: black;
+}
+
+.nav-item.dropdown::after {
+  content: "▼";
+  font-size: 10px;
+  margin-left: 5px;
+}
+.drop
+{
+list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%; /* Position dropdown below the parent item */
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    display: none; /* Hide by default */
+    z-index: 1000;
+}
+.drop li {
+  padding: 10px 20px;
+  white-space: nowrap; /* Prevent text wrapping */
+  color: #000;
+  font-size: 14px;
+}
+
+.drop li:hover {
+  background-color: #f5f5f5; /* Highlight on hover */
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .drop {
+  display: block;
+}
+.nav-center {
+  text-align: center;
+
+  display: flex;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+
+}
+
+.nav-icon {
+  margin: 0 10px;
+  position: relative;
+  color: black;
+  
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list ul li {
+  position: relative; /* Ensures the pseudo-element is positioned relative to the li */
+  padding: 10px 0;
+}
+
+.list ul li::before {
+  content: "";
+  display: block;
+  border-bottom: 1px solid black;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease, border-color 0.3s ease;
+}
+
+.list ul li:hover::before {
+  width: 50px;
+  border-color: white; /* Changes border color to white on hover */
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #f00;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+.icons ul
+{
+  display: flex;
+  gap:30px;
+
+}
+.icons ul li
+{
+  text-decoration: none;
+  list-style: none;
+}
+  .list ul {
+    display: flex;
+    justify-content: center;
+    margin: 0; /* Remove default margin from <ul> */
+    padding: 0;
+  }
+  
+  .list ul li {
+    display: flex;
+    margin: 11px;
+  }
+  
+  .list {
+    background-color: #243746;
+    color: white;
+    margin: 0; /* Remove margin from the .list division */
+    padding: 15px 0; /* Add some padding for spacing */
+  } 
+
+
+
+
+  
+    </style>
+</head>
+<body>
+    <nav class="navbar container">
+    <div class="nav-left">
+        <a href="#" class="nav-item">Shop</a>
+        <a href="#" class="nav-item dropdown" style="margin-left: 20px;">Recipes
+          <ul class="drop">
+            <li>New Arrivals</li>
+            <li>Best Seller</li>
+            <li>Subscribe & Save</li>
+          </ul>
+        </a>
+        <a href="#" class="nav-item dropdown">Learn
+          <ul class="drop">
+            <li>home</li>
+            <li>home</li>
+          </ul>
+        </a>
+    </div>
+    <div class="nav-center">
+        <a href="#" class="logo">
+            <img src="https://www.patagoniaprovisions.com/cdn/shop/files/logo_1.png?v=1694055867&width=150" alt="Patagonia Provisions">
+        </a>
+    </div>
+    <div class="nav-right">
+        <a href="" class="nav-item">Find Us In Store</a>
+        <a href="" class="nav-icon"><i class="bi bi-search"></i></a>
+         <a href="signup.html"><i class="bi bi-person-circle" class="nav-icon"></i></a>
+        <a href=""class="nav-icon"><i class="bi bi-cart-fill"></i></a>
+    </div>
+</nav>
+    <div class="list container-fluid">
+        <ul>
+            <li>New Arrivals</li>
+            <li> Seafood</li>
+            <li>Crackers + Pasta</li>
+            <li> Stock Up & Save</li>
+            <li>sale</li>
+        </ul>
+      </div>
+      <div class="container gifts">
+        <h1 style="text-align: left;">New-Arrivals
+        </h1>
+        <div class="row">
+            <div id="New-Arrivals" class="boxes">
+
+            </div>
+        </div>
+      </div>
+
+
+      <footer class=" footer">
+        <div class=" container footer-top">
+          <div class="footer-description">
+            <h2>Everything we eat impacts our home planet. That’s why we make delicious, nutritious foods that help fight the environmental crisis.</h2>
+            <p>
+              Subscribe to get notified about our new foods, restocked favorites, seasonal recipes, exclusive offers, and more.
+            </p>
+            <form class="subscription-form">
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="email-input"
+                required
+              />
+              <button type="submit" class="submit-button">Sign Me Up</button>
+            </form>
+            <div class="social-links">
+              <a href="#" aria-label="Twitter">Twitter</a>
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="TikTok">TikTok</a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <div>
+              <h3>Shop</h3>
+              <ul>
+                <li><a href="#">Shop All</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Subscribe & Save 10%</a></li>
+                <li><a href="#">Gifts & Goods</a></li>
+                <li><a href="#">Seafood</a></li>
+                <li><a href="#">Organic Grains</a></li>
+                <li><a href="#">Sale</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Mission</h3>
+              <ul>
+                <li><a href="#">What is Regenerative Organic Agriculture?</a></li>
+                <li><a href="#">Eating is Activism</a></li>
+                <li><a href="#">Why Food?</a></li>
+                <li><a href="#">Why Beer?</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">Impact</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">In the News</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Good Food Guarantee</a></li>
+                <li><a href="#">Manage Your Subscription</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Support</h3>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Find Us In Store</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Event Sponsorships</a></li>
+                <li><a href="#">Wholesale Inquiry</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Accessibility Statement</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="logo">
+          <img src="https://www.patagoniaprovisions.com/cdn/shop/files/logo_1_69afcbdb-46df-48c9-9cf9-267d68a5ca4c.png?v=1694526237&width=550">
+          <p>Copyright © 2023, Patagonia Provisions.
+  
+          </p>
+          </div>
+  
+      </footer>
+      <script src="main.js"></script>
+</body>
+</html>

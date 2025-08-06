@@ -1,0 +1,357 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sardines in Tomato Sauce",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1009_cc_WEB.jpg?v=1720470847&width=320",
+      "price": "$8.00",
+      "reviews": "0.0 (0)"
+    },
+    {
+      "id": 2,
+      "name": "Smoked Wild Pink Salmon",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/files/plated_5ba4e910-117d-4a9d-a64a-1aa1810d03f7.jpg?v=1730155521&width=320",
+      "price": "$27.00",
+      "reviews": "0.0 (0)"
+    },
+    {
+      "id": 3,
+      "name": "Smoked Wild Pink Salmon With Pastrami Spice",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/files/plated_b0600ba4-b7cf-4a4f-948f-d50b5e17b9c3.jpg?v=1730158472&width=320",
+      "price": "$27.00",
+      "reviews": "0.0 (0)"
+    },
+    {
+      "id": 4,
+      "name": "MiiR Holy Mackerel Water Bottle",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/files/HolyMackerelwaterbottle-1.jpg?v=1730306237&width=320",
+      "price": "$39.00",
+      "reviews": "0.0 (0)"
+    },
+    {
+      "id": 5,
+      "name": "MiiR Eat Small Fish Tumbler",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Eatsmallfishtumbler-1.jpg?v=1730306951&width=320",
+      "price": "$25.00",
+      "reviews": "0.0 (0)"
+    },
+    {
+      "id": 6,
+      "name": "Sardines in Olive Oil",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1008_cc_WEB.jpg?v=1720472888&width=320",
+      "price": "$8.00",
+      "reviews": "5.0 (1)"
+    },
+    {
+      "id": 7,
+      "name": "Sardines in Coconut Curry Sauce",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1010_cc_WEB.jpg?v=1720473930&width=320",
+      "price": "$8.00",
+      "reviews": "0.0 (0)"
+    },
+    {
+      "id": 8,
+      "name": "Organic Pasta Shells",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/files/kumler_a_P_6756_cc_WEB.jpg?v=1709149936&width=320",
+      "price": "$6.49",
+      "reviews": "5.0 (4)"
+    }
+  ],
+  
+  "Fish-Board": [
+    {
+      "id": 1,
+      "name": "Tinned Fish Board",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/articles/Tinned-fish-recipe-header.jpg?v=1731518098&width=320",
+      "price": "12.99"
+    },
+    {
+      "id": 2,
+      "name": "Sardine Nicoise Salad",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/articles/Sadrines_-0639.jpg?v=1723494949&width=320",
+      "price": "14.99"
+    },
+    {
+      "id": 3,
+      "name": "Fusilli Pasta with Sardines in Tomato Sauce",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/articles/Sadrines_-0347.jpg?v=1720651784&width=320",
+      "price": "13.49"
+    },
+    {
+      "id": 4,
+      "name": "Turkish Sardine Sandwich, Balik Ekmek",
+      "image": "https://www.patagoniaprovisions.com/cdn/shop/articles/Sardines_Sandwich_Recipe.jpg?v=1720547587&width=320",
+      "price": "11.99"
+    }
+  ],
+
+  
+    "Gifts+Boxes": [
+      {
+        "id": 1,
+        "name": "The Hiker's Gift Box",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/20241017_HikersGiftbox.jpg?v=1730400553&width=320",
+        "price": "$76.00"
+      },
+      {
+        "id": 2,
+        "name": "Responsible Seafood Sampler",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/responsible_seafood_sampler_box.jpg?v=1725574137&width=320",
+        "price": "$134.00"
+      },
+      {
+        "id": 3,
+        "name": "Tinned Seafood Sampler Box",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/20240715_tinned_seafood_sampler_box.jpg?v=1729525428&width=320",
+        "price": "$116.00"
+      },
+      {
+        "id": 4,
+        "name": "Mussels Variety - 3 Pack",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Mussels_Varietypk.jpg?v=1725395815&width=320",
+        "price": "$24.00"
+      },
+      {
+        "id": 5,
+        "name": "Pasta Gift Box",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/20240429_pastagiftbox.jpg?v=1720456579&width=320",
+        "price": "$66.00"
+      },
+      {
+        "id": 6,
+        "name": "Patagonia Kids Gift Box",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/20240429_kidsgiftbox.jpg?v=1720199737&width=320",
+        "price": "$54.00"
+      },
+      {
+        "id": 7,
+        "name": "Mackerel Variety - 3 Pack",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Mackerel_Variety_pk.jpg?v=1727908162&width=320",
+        "price": "$54.00"
+      },
+      {
+        "id": 8,
+        "name": "Smoked Wild Pink Salmon Variety Pack",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Canned_Salmon_VP.jpg?v=1730159213&width=320",
+        "price": "$54.00"
+      },
+      {
+        "id": 9,
+        "name": "Taste of Provisions Gift Box",
+        "image": "https://www.patagoniaprovisions.com/cdn/shop/files/taste_of_provisions_box.jpg?v=1727472354&width=320",
+        "price": "$184.00"
+      }
+    ],
+    
+      "Best-Seller": [
+        {
+          "id": 1,
+          "name": "Taste of Provisions Gift Box",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/taste_of_provisions_box.jpg?v=1727472354&width=320",
+          "price": "$184.00"
+        },
+        {
+          "id": 2,
+          "name": "Mussels Variety - 3 Pack",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Mussels_Varietypk.jpg?v=1725395815&width=320",
+          "price": "$24.00"
+        },
+        {
+          "id": 3,
+          "name": "Provisions Best Sellers Gift Box",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/20240429_Bestsellersbox.jpg?v=1720463684&width=320",
+          "price": "$85.00"
+        },
+        {
+          "id": 4,
+          "name": "Organic Crackers Variety Pack",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Crackers_VarietyPack1.jpg?v=1727473191&width=320",
+          "price": "$24.00"
+        },
+        {
+          "id": 5,
+          "name": "Tinned Fish Variety Pack",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/TinnedFishVarietyPack_f3a6d7aa-4ef0-4343-9da5-e0d44b5b8618.jpg?v=1724875375&width=320",
+          "price": "$86.00"
+        },
+        {
+          "id": 6,
+          "name": "Mackerel Variety - 3 Pack",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Mackerel_Variety_pk.jpg?v=1727908162&width=320",
+          "price": "$24.00"
+        },
+        {
+          "id": 7,
+          "name": "Organic Penne Pasta",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/kumler_a_P_6757_cc_WEB.jpg?v=1709152153&width=320",
+          "price": "$6.49"
+        },
+        {
+          "id": 8,
+          "name": "White Anchovies Variety Pack",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Anchovies_Variety_pk.jpg?v=1727908004&width=320",
+          "price": "$24.00"
+        },
+        {
+          "id": 9,
+          "name": "Tinned Seafood Sampler Box",
+          "image": "https://www.patagoniaprovisions.com/cdn/shop/files/20240715_tinned_seafood_sampler_box.jpg?v=1729525428&width=320",
+          "price": "$116.00"
+        }
+      ],
+
+      
+        "New-Arrival": [
+          {
+            "id": 1,
+            "name": "Organic Multiseed Crackers",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/plated_3edbc9fc-42ad-4323-8e7a-fede0155067e.jpg?v=1733854263&width=320",
+            "price": "$6.00"
+          },
+          {
+            "id": 2,
+            "name": "Sardines in Tomato Sauce",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1009_cc_WEB.jpg?v=1720470847&width=320",
+            "price": "$8.00"
+          },
+          {
+            "id": 3,
+            "name": "Smoked Wild Pink Salmon",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/plated_5ba4e910-117d-4a9d-a64a-1aa1810d03f7.jpg?v=1730155521&width=320",
+            "price": "$27.00"
+          },
+          {
+            "id": 4,
+            "name": "Smoked Wild Pink Salmon With Pastrami Spice",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/plated_b0600ba4-b7cf-4a4f-948f-d50b5e17b9c3.jpg?v=1730158472&width=320",
+            "price": "$27.00"
+          },
+          {
+            "id": 5,
+            "name": "MiiR Holy Mackerel Water Bottle",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/HolyMackerelwaterbottle-1.jpg?v=1730306237&width=320",
+            "price": ""
+          },
+          {
+            "id": 6,
+            "name": "MiiR Eat Small Fish Tumbler",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Eatsmallfishtumbler-1.jpg?v=1730306951&width=320",
+            "price": ""
+          },
+          {
+            "id": 7,
+            "name": "Sardines in Olive Oil",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1008_cc_WEB.jpg?v=1720472888&width=320",
+            "price": "$8.00"
+          },
+          {
+            "id": 8,
+            "name": "Sardines in Coconut Curry Sauce",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1010_cc_WEB.jpg?v=1720473930&width=320",
+            "price": "$8.00"
+          },
+          {
+            "id": 9,
+            "name": "Organic Pasta Shells",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/kumler_a_P_6756_cc_WEB.jpg?v=1709149936&width=320",
+            "price": "$6.49"
+          },
+          {
+            "id": 10,
+            "name": "Organic Penne Pasta",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/kumler_a_P_6757_cc_WEB.jpg?v=1709152153&width=320",
+            "price": "$6.49"
+          },
+          {
+            "id": 11,
+            "name": "Organic Fusilli Pasta",
+            "image": "https://www.patagoniaprovisions.com/cdn/shop/files/kumler_a_P_6755_cc_WEB_cropPDP.jpg?v=1709153044&width=320",
+            "price": "$6.49"
+          }
+        ],
+
+        
+          "Sea-Food": [
+            {
+              "id": 1,
+              "name": "Organic Multiseed Crackers",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/plated_3edbc9fc-42ad-4323-8e7a-fede0155067e.jpg?v=1733854263&width=320",
+              "price": "$6.00"
+            },
+            {
+              "id": 2,
+              "name": "Sardines in Tomato Sauce",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1009_cc_WEB.jpg?v=1720470847&width=320",
+              "price": "$8.00"
+            },
+            {
+              "id": 3,
+              "name": "Smoked Wild Pink Salmon",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/plated_5ba4e910-117d-4a9d-a64a-1aa1810d03f7.jpg?v=1730155521&width=320",
+              "price": "$27.00"
+            },
+            {
+              "id": 4,
+              "name": "Smoked Wild Pink Salmon With Pastrami Spice",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/plated_b0600ba4-b7cf-4a4f-948f-d50b5e17b9c3.jpg?v=1730158472&width=320",
+              "price": "$27.00"
+            },
+            {
+              "id": 5,
+              "name": "MiiR Holy Mackerel Water Bottle",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/HolyMackerelwaterbottle-1.jpg?v=1730306237&width=320",
+              "price": ""
+            },
+            {
+              "id": 6,
+              "name": "MiiR Eat Small Fish Tumbler",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/Eatsmallfishtumbler-1.jpg?v=1730306951&width=320",
+              "price": ""
+            },
+            {
+              "id": 7,
+              "name": "Sardines in Olive Oil",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1008_cc_WEB.jpg?v=1720472888&width=320",
+              "price": "$8.00"
+            },
+            {
+              "id": 8,
+              "name": "Sardines in Coconut Curry Sauce",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/0592.kumler_a_1010_cc_WEB.jpg?v=1720473930&width=320",
+              "price": "$8.00"
+            },
+            {
+              "id": 9,
+              "name": "Organic Pasta Shells",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/kumler_a_P_6756_cc_WEB.jpg?v=1709149936&width=320",
+              "price": "$6.49"
+            },
+            {
+              "id": 10,
+              "name": "Organic Penne Pasta",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/kumler_a_P_6757_cc_WEB.jpg?v=1709152153&width=320",
+              "price": "$6.49"
+            },
+            {
+              "id": 11,
+              "name": "Organic Fusilli Pasta",
+              "image": "https://www.patagoniaprovisions.com/cdn/shop/files/kumler_a_P_6755_cc_WEB_cropPDP.jpg?v=1709153044&width=320",
+              "price": "$6.49"
+            }
+          ]
+        
+        
+      
+      
+    
+    
+  
+  
+
+
+    
+  
+}
+
+  
+

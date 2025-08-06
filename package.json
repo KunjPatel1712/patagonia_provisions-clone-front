@@ -1,0 +1,11 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "json-server --watch db.json",
+    "start": "npm run server"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
